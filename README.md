@@ -38,12 +38,6 @@ This project demonstrates the creation of a Linear Regression model from scratch
 
 ---
 
-## **Future Improvements:**
-* Add polynomial regression and regularization.
-* Implement feature selection methods.
-
----
-
 ## **References:**
 * [Linear Regression Documentation - Scikit-learn](https://scikit-learn.org/stable/modules/linear_model.html)
 * [Gradient Descent Explained](https://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html)
