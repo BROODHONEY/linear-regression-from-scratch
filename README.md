@@ -1,45 +1,64 @@
-# Linear Regression from Scratch: OLS vs. Gradient Descent
+# Linear Regression with Ordinary Least Squares and Gradient Descent
 
-This project demonstrates the creation of a Linear Regression model from scratch using two different approaches: **Ordinary Least Squares (OLS)** and **Gradient Descent (GD)**. It uses the **California Housing dataset** to showcase the implementation and comparison of both methods.
+This project implements linear regression using two methods: Ordinary Least Squares (OLS) and Gradient Descent. The California housing dataset is used to compare the performance of both methods.
 
----
+## Overview
 
-## **Objectives:**
-* Understand the theory and mathematics behind Linear Regression.
-* Implement Simple Linear Regression without built-in ML libraries.
-* Predict median house values using the California Housing dataset.
-* Compare OLS and Gradient Descent approaches to determine the most suitable method.
+This project aims to compare two popular methods for linear regression:
 
----
+* **Ordinary Least Squares (OLS):** A closed-form solution.
 
-## **Dataset:**
-* **California Housing Dataset** from Scikit-learn.
-* Features include median income, house age, population, etc.
+* **Gradient Descent:** An iterative optimization algorithm.
 
----
+We use the California housing dataset to build linear regression models with both methods and evaluate their performance.
 
-## **Ordinary Least Squares (OLS):**
-* Provides a direct, closed-form solution using the Normal Equation.
-* Efficient for small to medium-sized datasets but can be computationally expensive for very large datasets.
+## Dataset
 
-## **Gradient Descent (GD):**
-* Iterative optimization method that gradually updates coefficients to minimize the cost function.
-* More suitable for large datasets and online learning, though it requires careful tuning of hyperparameters like learning rate.
+The <a src = "https://www.kaggle.com/datasets/camnugent/california-housing-prices">California housing dataset</a> consists of various features such as median income, house age, and number of rooms, used to predict median house prices in California.
 
-## **Methods Implemented:**
-* **Ordinary Least Squares (OLS):** Closed-form solution using the Normal Equation.
-* **Gradient Descent (GD):** Iterative approach to find optimal coefficients.
+## Installation
 
----
+### Clone the repository:
 
-## **Results:**
-* Both OLS and GD produce similar results on the California Housing dataset.
-* OLS is faster for smaller datasets, while GD is scalable for larger datasets.
+git clone https://github.com/BROODHONEY/linear-regression-from-scratch.git
 
----
+### Install dependencies:
 
-## **References:**
-* [Linear Regression Documentation - Scikit-learn](https://scikit-learn.org/stable/modules/linear_model.html)
-* [Gradient Descent Explained](https://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html)
-* [linear-regression-from-scratch - jeppbautista](https://www.kaggle.com/code/jeppbautista/linear-regression-from-scratch/notebook#notebook-container)
-* [Ordinary least squares - wikiwand](https://www.wikiwand.com/en/articles/Ordinary_least_squares)
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+
+### Project Structure
+
+|-- data/
+|-- README.md
+|-- linear-regression-from-scratch.ipynb
+
+## Usage
+
+Jupyter notebooks for step-by-step implementation can be found in the notebooks/ directory.
+
+## Methodology
+
+Ordinary Least Squares: Minimizes the residual sum of squares between observed and predicted values.
+
+Gradient Descent: Iteratively adjusts coefficients by taking steps proportional to the negative gradient of the cost function.
+
+## Results
+
+Performance Metrics: R-squared, Mean Squared Error (MSE).
+
+## Conclusion
+
+This project demonstrates the strengths and weaknesses of both OLS and Gradient Descent. While OLS provides a direct solution, Gradient Descent is more flexible and can handle larger datasets.
+
+## Future Work
+
+* Implement Ridge and Lasso regression.
+
+* Optimize hyperparameters using Grid Search.
+
+* Expand the dataset or use cross-validation for more robust comparisons.
+
+## Author
+
+Roshan Padmanabhan
+
