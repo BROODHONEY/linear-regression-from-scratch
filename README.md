@@ -1,4 +1,4 @@
-# Linear Regression with Ordinary Least Squares and Gradient Descent
+# Linear Regression from Scratch with Ordinary Least Squares and Gradient Descent
 
 This project implements linear regression using two methods: Ordinary Least Squares (OLS) and Gradient Descent. The California housing dataset is used to compare the performance of both methods.
 
