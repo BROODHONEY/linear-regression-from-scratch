@@ -28,9 +28,11 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
 ### Project Structure
 
+```bash
 |-- data/
 |-- README.md
 |-- linear-regression-from-scratch.ipynb
+```
 
 ## Usage
 
@@ -61,4 +63,15 @@ This project demonstrates the strengths and weaknesses of both OLS and Gradient 
 ## Author
 
 Roshan Padmanabhan
+
+## References
+
+https://ml-cheatsheet.readthedocs.io/en/latest/gradient_descent.html
+
+https://www.kaggle.com/code/jeppbautista/linear-regression-from-scratch/notebook#notebook-container
+
+https://www.wikiwand.com/en/articles/Ordinary_least_squares
+
+https://scikit-learn.org/stable/modules/linear_model.html
+
 
