@@ -20,11 +20,15 @@ The <a src = "https://www.kaggle.com/datasets/camnugent/california-housing-price
 
 ### Clone the repository:
 
-`git clone https://github.com/BROODHONEY/linear-regression-from-scratch.git`
+```
+git clone https://github.com/BROODHONEY/linear-regression-from-scratch.git
+```
 
 ### Install dependencies:
 
-`pip install pandas numpy matplotlib seaborn scikit-learn jupyter`
+```
+pip install pandas numpy matplotlib seaborn scikit-learn jupyter
+```
 
 ### Project Structure
 
