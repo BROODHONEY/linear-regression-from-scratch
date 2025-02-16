@@ -44,9 +44,9 @@ Jupyter notebooks for step-by-step implementation can be found in the notebooks/
 
 ## Methodology
 
-Ordinary Least Squares: Minimizes the residual sum of squares between observed and predicted values.
+* Ordinary Least Squares: Minimizes the residual sum of squares between observed and predicted values.
 
-Gradient Descent: Iteratively adjusts coefficients by taking steps proportional to the negative gradient of the cost function.
+* Gradient Descent: Iteratively adjusts coefficients by taking steps proportional to the negative gradient of the cost function.
 
 ## Results
 
